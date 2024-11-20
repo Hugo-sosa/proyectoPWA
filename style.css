@@ -1,0 +1,94 @@
+* {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.title {
+  display: flex;
+  width: 100%;
+  height: 5rem;
+  background-color: #D6DADC;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+}
+
+.about-me {
+  margin: 2rem 10rem;
+  padding: 3rem;
+  background-color: lightgrey;
+}
+
+.about-me .about-me-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+}
+
+.about-me .about-me-container .about-me-image img{
+  width: 10rem;
+}
+
+.about-me .about-me-container .about-me-image {
+  margin: auto;
+}
+
+.apps-tools {
+  padding: 0.5rem;
+  border: solid 2px black;
+  border-radius: 1rem;
+  margin: 1rem;
+}
+
+.apps-tools .section-title {
+  margin: 1rem;
+  font-size: x-large;
+}
+
+.apps-tools .work{
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.apps-tools .work .apps-type {
+  background-color: #79C1DD;
+  margin: 1rem;
+  border-radius: 1rem;
+}
+
+.apps-tools .work .tools {
+  background-color: #79C1DD;
+  margin: 1rem;
+  border-radius: 1rem;
+}
+
+.experience {
+  background-color: #79C1DD;
+  padding: 2rem;
+}
+
+.experience .exp-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0 12rem;
+}
+
+.experience .exp-title{
+  font-size: x-large;
+  margin: 0 12rem;
+}
+
+li {
+  list-style: none;
+  padding: 10px 0 10px 0;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  background-color: #D6DADC;
+  width: 100%;
+  height: 5rem;
+}
